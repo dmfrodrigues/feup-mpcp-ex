@@ -32,6 +32,6 @@ ciclo:				CBZ		X3, fim
 						ORR		V12.16B, V8.16B, V9.16B
 
 						STR		Q12, [X2], #16
-						SUB		X3, X3, #2
+						SUB		X3, X3, #4
 					B		ciclo
 fim:				RET
