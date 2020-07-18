@@ -27,6 +27,6 @@ int main(void) {
 	printf("(");
 	for(int i = 0; i < SZ; i += 2)
 		printf("%f\t%f\t", Z[i], Z[i+1]);
-	printf(")");
+	printf(")\n");
 	return EXIT_SUCCESS;
 }
