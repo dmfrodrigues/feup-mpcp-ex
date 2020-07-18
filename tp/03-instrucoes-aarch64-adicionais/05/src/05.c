@@ -1,18 +1,10 @@
-/*
- ============================================================================
- Name        : 05.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
+
 extern int POS1msb(long int n);
 extern int PAL8(char *s);
 extern int NCAP(int n);
+
 int main(void) {
 	printf("POS1msb %d==%d\n", POS1msb(0b110110001), 8);
 	printf("POS1msb %d==%d\n", POS1msb(0b1110110001), 9);

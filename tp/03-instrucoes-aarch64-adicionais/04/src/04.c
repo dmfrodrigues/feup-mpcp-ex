@@ -1,17 +1,9 @@
-/*
- ============================================================================
- Name        : 04.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
+
 extern void f2e04a(unsigned char *p1, unsigned long *p2, unsigned long dim);
 extern void f2e04b(          int *p1,          long *p2, unsigned long dim);
+
 int main(void) {
 	unsigned char p1[] = {0,1,2,3,4,5,126,127,128,254,255};
 	unsigned long p2[11];

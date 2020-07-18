@@ -1,16 +1,8 @@
-/*
- ============================================================================
- Name        : 02_d.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
+
 extern int AVG_D(long* p, int dim);
+
 int main(void) {
 	long p[] = {10,10,10,10,10,10,10,10,10,10};
 	printf("AVG_D = %d\n", AVG_D(p,10));
