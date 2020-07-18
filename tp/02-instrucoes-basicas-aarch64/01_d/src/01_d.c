@@ -15,7 +15,7 @@
 extern int COMPARE(ULLI a);
 
 int main(void) {
-	printf("%d\n", COMPARE((ULLI)11771832262392148754)); //1
-	printf("%d\n", COMPARE((ULLI)20014547604021)); //0
+	printf("%d\n", COMPARE((ULLI)11771832262392148754uL)); //1
+	printf("%d\n", COMPARE((ULLI)20014547604021uL)); //0
 	return EXIT_SUCCESS;
 }
