@@ -7,7 +7,7 @@ int main(void) {
 	char s[] = "30 de Abril";
 	unsigned long int res;
 	res = SUBR_T2(s);
-	printf("0x%x\n", s);
-	printf("0x%x\n", res);
+	printf("0x%lX\n", (unsigned long)s);
+	printf("0x%lX\n", res);
 	return EXIT_SUCCESS;
 }
