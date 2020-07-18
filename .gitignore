@@ -9,3 +9,4 @@ Debug
 .td.dat
 *.o
 *.out
+.vscode
