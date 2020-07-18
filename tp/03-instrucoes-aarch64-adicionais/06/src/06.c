@@ -25,7 +25,7 @@ int main(void) {
 	printf("%+ld=> %+ld==%+ld\n", m, f2e06b(m), (long)(+482253));
 	printf("%+ld=> %+ld==%+ld\n", p, f2e06b(p), (long)(-482254));
 
-	printf(" %lu=>  %lu== %lu\n", (unsigned)m, f2e06c(m), (unsigned)(2699786658));
+	printf(" %u=>  %u== %u\n", (unsigned)m, f2e06c(m), 2699786658u);
 
 	return EXIT_SUCCESS;
 }
