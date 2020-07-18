@@ -1,4 +1,11 @@
+*
+!*.*
+!*/
+!makefile
+
 Debug
 .project
 .cproject
 .td.dat
+*.o
+*.out

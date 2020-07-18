@@ -1,0 +1,28 @@
+name: test
+
+on:
+  push:
+    branches: [ master ]
+  pull-request:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install AArch64-GNU (compiler suite)
+      run: sudo apt install -y gcc-aarch64-linux-gnu
+
+    - name: Install QEMU (emulator)
+      run: sudo apt install -y qemu
+
+    - name: Build
+      run: make
+
+    - name: Test
+      run: make test
+
+    - name: Clean
+      run: make clean
