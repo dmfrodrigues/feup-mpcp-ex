@@ -3,8 +3,8 @@
 
 extern void VerificaPonto(double x, double y, char *msgSIM, char *msgNAO);
 
-char msgSIM[] = "Oh yeah!\n";
-char msgNAO[] = "Fudeu\n";
+char msgSIM[] = "Inside\n";
+char msgNAO[] = "Outside\n";
 
 int main(void) {
 	VerificaPonto(0.0,	0.0,	msgSIM, msgNAO);
