@@ -2,6 +2,8 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+![test](https://github.com/dmfrodrigues/feup-mpcp-ex/workflows/test/badge.svg)
+
 - **Institution:** [FEUP](https://sigarra.up.pt/feup/en/web_page.Inicial)
 - **Course:** [MPCP](https://sigarra.up.pt/feup/en/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=436431) (Microprocessors and Personal Computers)
 - **Subjects:** Low-level (assembly code) programming, peripherals
