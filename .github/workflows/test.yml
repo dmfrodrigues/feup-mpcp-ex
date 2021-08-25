@@ -13,10 +13,14 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install AArch64-GNU (compiler suite)
-      run: sudo apt install -y gcc-aarch64-linux-gnu
+      run: |
+        sudo apt update
+        sudo apt install -y gcc-aarch64-linux-gnu
 
     - name: Install QEMU (emulator)
-      run: sudo apt install -y qemu
+      run: |
+        sudo apt update
+        sudo apt install -y qemu
 
     - name: Build
       run: make
